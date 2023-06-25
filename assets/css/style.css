@@ -1,4 +1,44 @@
 * {
   font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.nombre {
+  font-size: 3em;
+  color: #d3ac00;
+  font-weight: 100;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-footer {
+  font-size: 1em;
+  color: #d3ac00;
+  font-weight: 300;
+}
+
+.rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.rrss li {
+  padding: 0 20px 0 20px;
+  font-size: 1em;
+  color: black;
+  text-decoration: solid;
 }
