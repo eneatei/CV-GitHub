@@ -10,10 +10,25 @@
   padding: 20px;
 }
 
+.contenido {
+  align-items: start;
+  padding: 20px;
+}
+
 .nombre {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #d3ac00;
-  font-weight: 100;
+  font-weight: 400;
+}
+
+.imgRedonda {
+  border-radius: 100px;
+}
+
+.text-title {
+  font-size: 1.5em;
+  color: #d3ac00;
+  font-weight: 400;
 }
 
 .footer {
@@ -34,11 +49,21 @@
   flex-direction: row;
   justify-content: center;
   list-style: none;
+  align-items: center;
+  margin: 0;
 }
 
 .rrss li {
   padding: 0 20px 0 20px;
-  font-size: 1em;
+}
+
+a:link {
+  padding-left: 5px;
   color: black;
-  text-decoration: solid;
+  text-decoration: none;
+}
+
+a:link:hover {
+  color: white;
+  text-decoration: none;
 }
